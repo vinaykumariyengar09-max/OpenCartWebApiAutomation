@@ -7,7 +7,11 @@ export class BasePage {
 
     constructor(page: Page) {
         this.page = page;
+
+        console.log("HI");
     }
+
+    
 
     //App common features: footer, logo, search
 
