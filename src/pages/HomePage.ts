@@ -6,16 +6,16 @@ export class HomePage extends BasePage {
     //private locators:
     private readonly logoutLink: Locator;
     private readonly headers: Locator;
-    private readonly searchBox: Locator;
-    private readonly searchIcon: Locator;
+    private readonly searchTextBox: Locator;
+    private readonly searchIconLens: Locator;
 
     //const... of the class....init the locators:
     constructor(page: Page) {
         super(page);
         this.logoutLink = page.getByRole('link', { name: 'Logout' });
         this.headers = page.getByRole('heading', { level: 2 });
-        this.searchBox = page.getByRole('textbox', { name: 'Search' });
-        this.searchIcon = page.locator('#search button')
+        this.searchTextBox = page.getByRole('textbox', { name: 'Search' });
+        this.searchIconLens = page.locator('#search button')
     }
 
     //page actions:
@@ -33,7 +33,7 @@ export class HomePage extends BasePage {
 
     async doSearch(searchKey: string): Promise<void> {
         console.log('search key: ', searchKey);
-        await this.searchBox.fill(searchKey);
+        await this.searchTextBox.fill(searchKey);
         await this.searchIcon.click();
     }
 
