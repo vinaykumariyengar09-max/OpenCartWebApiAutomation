@@ -5,7 +5,7 @@ import { JsonHelper } from '../src/utils/JsonHelper';
 
 import { test, expect } from '../src/fixtures/pagefixtures';
 import * as allure from "allure-js-commons";
-//import { meta, log, testData } from 'reporting-labs';
+import { meta, log, testData } from 'reporting-labs';
 
 test.beforeEach(async ({ loginPage }) => {
     await loginPage.goToLoginPage();
@@ -13,7 +13,7 @@ test.beforeEach(async ({ loginPage }) => {
 
 //AAA
 test('login page title test', async ({ loginPage }) => {
-    //meta({ priority: 'P2', severity: 'minor', owner: 'Naveen', story: 'US101', epic: 'ep300', feature: 'F30', issue: 'bug34' });
+    meta({ priority: 'P2', severity: 'minor', owner: 'Naveen', story: 'US101', epic: 'ep300', feature: 'F30', issue: 'bug34' });
 
     let pageTitle = await loginPage.getPageTitle();
     console.log('Login page title : ', pageTitle);
@@ -23,15 +23,15 @@ test('login page title test', async ({ loginPage }) => {
 });
 
 test('forgot pwd link exist test', async ({ loginPage }) => {
-    //meta({ priority: 'P1', severity: 'critical', owner: 'Himanshu', story: 'US102', epic: 'ep300', feature: 'F31', issue: 'bug35' });
+    meta({ priority: 'P1', severity: 'critical', owner: 'Himanshu', story: 'US102', epic: 'ep300', feature: 'F31', issue: 'bug35' });
 
     expect(await loginPage.isForgottenPwdLinkExist()).toBeTruthy();
 });
 
 test('user is able to login to app with valid credentials', async ({ loginPage, homePage }) => {
 
-    //meta({ priority: 'P1', severity: 'blocker', owner: 'Manish', story: 'US102', epic: 'ep300', feature: 'F31', issue: 'bug35' });
-    //await testData({ username: process.env.USERNAME!, password: process.env.PASSWORD! }, 'Login');
+    meta({ priority: 'P1', severity: 'blocker', owner: 'Manish', story: 'US102', epic: 'ep300', feature: 'F31', issue: 'bug35' });
+    await testData({ username: process.env.APP_USERNAME!, password: process.env.APP_PASSWORD! }, 'Login');
 
     await allure.suite("Login Tests");
     await allure.severity("critical");

@@ -1,5 +1,5 @@
 import { defineConfig, devices } from '@playwright/test';
-//import reportingLabs from './reporting-labs.config';
+import reportingLabs from './reporting-labs.config';
 
 import dotenv from 'dotenv';
 
@@ -29,7 +29,7 @@ export default defineConfig({
       outputFolder: "allure-results",
       suiteTitle: true,
     }],
-   // ['reporting-labs', reportingLabs]
+    ['reporting-labs', reportingLabs]
   ],
 
   use: {

@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-     "test": "npx playwright test",
+    "test": "npx playwright test",
     "test:headed": "npx playwright test --headed",
     "test:chrome": "npx playwright test --project=chromium",
     "allure:generate": "npx allure generate allure-results --clean -o allure-report",
@@ -20,7 +20,8 @@
     "@playwright/test": "^1.62.1",
     "@types/node": "^26.4.1",
     "allure-commandline": "^2.46.1",
-    "allure-playwright": "^3.12.2"
+    "allure-playwright": "^3.12.2",
+    "reporting-labs": "^0.6.0"
   },
   "dependencies": {
     "ajv": "^8.20.0",
