@@ -39,7 +39,6 @@ test('verify product information/data', async ({ homePage, searchResultsPage, pr
     expect.soft(actualProductInfoMap.get('productprice')).toBe('$2,000.00');
     expect.soft(actualProductInfoMap.get('extaxprice')).toBe('$2,000.00');
 
-    //await page.pause();
 });
 
 //common features test:

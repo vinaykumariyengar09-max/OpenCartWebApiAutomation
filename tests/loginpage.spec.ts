@@ -24,8 +24,7 @@ test.skip('forgot pwd link exist test', async () => {
 });
 
 test.skip('user is able to login to app', async () => {
-    await loginPage.doLogin('vinaykumar.iyengar09testing@gmail.com', 'test@123');
+    await loginPage.doLogin('vinaykumar.iyengar09+testing@gmail.com', '12345678');
     expect.soft(await homePage.isLogoutLinkExist()).toBeTruthy();
     expect.soft(await homePage.getHomePageTitle()).toBe('My Account');
-   
 });

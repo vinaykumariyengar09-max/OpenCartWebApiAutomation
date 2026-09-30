@@ -43,13 +43,12 @@ export default defineConfig({
       ['reporting-labs', reportingLabs]
     ],
 
-
   use: {
     baseURL: process.env.BASE_URL,
     headless: !process.env.CI ? false : true,
     trace: 'on-first-retry',
-    screenshot: 'on',
-    video: 'on'
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure'
   },
 
   /* Configure projects for major browsers */

@@ -48,7 +48,6 @@ test('booking CRUD with token', async ({ request, page }) => {
     //web automation code:
     // page.goto('');
     // //go to the booking page
-    // //
 
 
     //2. Update a booking by bookingID: needs token
@@ -79,4 +78,3 @@ test('booking CRUD with token', async ({ request, page }) => {
     expect(deleteResponse.status()).toBe(201);
 
 });
-
