@@ -46,4 +46,3 @@ test('get albums data test', async ({ request }) => {
     console.log(jsonBody.images.length);
     expect(jsonBody.images.length).toBe(3);
 })
-

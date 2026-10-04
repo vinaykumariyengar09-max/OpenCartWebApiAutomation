@@ -859,5 +859,352 @@
     2453
    ]
   }
+ },
+ {
+  "time": 1790737550307,
+  "duration": 40647.149999999994,
+  "passed": 58,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 10,
+  "total": 69,
+  "tests": {
+   "chromium::tests/api/booking.api.spec.ts::booking CRUD with token": [
+    "p",
+    3364
+   ],
+   "chromium::tests/api/intercept.spec.ts::intercept and log requests": [
+    "p",
+    6058
+   ],
+   "chromium::tests/api/intercept.spec.ts::mock search with fake JSON": [
+    "p",
+    925
+   ],
+   "chromium::tests/api/intercept.spec.ts::mock search page with fake HTML": [
+    "p",
+    1043
+   ],
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "f",
+    254
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::Create a user test": [
+    "p",
+    2013
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::Update a user test": [
+    "p",
+    2456
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::Delete a user test": [
+    "p",
+    2009
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::get a user - schema test": [
+    "p",
+    1108
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::get all users - schema test": [
+    "p",
+    582
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › GET API - get all users": [
+    "p",
+    514
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › POST API -- create a user": [
+    "p",
+    520
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › PUT API -- update a user": [
+    "p",
+    504
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › DELETE API -- delete a user": [
+    "p",
+    527
+   ],
+   "chromium::tests/api/usera.pi.schema.spec.ts::get a user - schema test": [
+    "p",
+    1058
+   ],
+   "chromium::tests/api/usera.pi.schema.spec.ts::get all users - schema test": [
+    "p",
+    527
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::get all users GET api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::create a user POST api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::update a user PUT api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::delete a user DELETE api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::home page title test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::logout link exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::home page headers exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepagefix.spec.ts::home page title test": [
+    "p",
+    6155
+   ],
+   "chromium::tests/homepagefix.spec.ts::logout link exist test": [
+    "p",
+    7074
+   ],
+   "chromium::tests/homepagefix.spec.ts::home page headers exist test": [
+    "p",
+    5755
+   ],
+   "chromium::tests/homepagefix.spec.ts::App logo exists on Login Page": [
+    "p",
+    5599
+   ],
+   "chromium::tests/homepagefix.spec.ts::Search Box exists on Login Page": [
+    "p",
+    3823
+   ],
+   "chromium::tests/homepagefix.spec.ts::Cart exists on Login Page": [
+    "p",
+    2866
+   ],
+   "chromium::tests/homepagefix.spec.ts::Footers exists on Login Page": [
+    "p",
+    3022
+   ],
+   "chromium::tests/loginpage.spec.ts::login page title test": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpage.spec.ts::forgot pwd link exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpage.spec.ts::user is able to login to app": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login page title test": [
+    "p",
+    2586
+   ],
+   "chromium::tests/loginpagefix.spec.ts::forgot pwd link exist test": [
+    "p",
+    2213
+   ],
+   "chromium::tests/loginpagefix.spec.ts::user is able to login to app with valid credentials": [
+    "p",
+    3567
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with fixture data": [
+    "p",
+    3730
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with CSV data - invalid@open.com - wrong123": [
+    "p",
+    2822
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with CSV data -  - pw1234": [
+    "p",
+    2402
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with CSV data - pwapril@pw.com - ": [
+    "p",
+    2679
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data- invalid@open.com - wrong123": [
+    "p",
+    3022
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data-  - pw1234": [
+    "p",
+    2900
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data- pwapril@pw.com - ": [
+    "p",
+    1890
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- wrong@open.com - wrong@123": [
+    "p",
+    2485
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- invalid@open.com - ": [
+    "p",
+    2239
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- pwapril@pw.com - wrong@123": [
+    "p",
+    2637
+   ],
+   "chromium::tests/loginpagefix.spec.ts::App logo exists on Login Page": [
+    "p",
+    2370
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Search Box exists on Login Page": [
+    "p",
+    1570
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Cart exists on Login Page": [
+    "p",
+    1462
+   ],
+   "chromium::tests/loginpagefix.spec.ts::Footers exists on Login Page": [
+    "p",
+    2086
+   ],
+   "chromium::tests/productpage.spec.ts::verify product header": [
+    "p",
+    3658
+   ],
+   "chromium::tests/productpage.spec.ts::verify product images count": [
+    "p",
+    4389
+   ],
+   "chromium::tests/productpage.spec.ts::verify product information/data": [
+    "p",
+    4698
+   ],
+   "chromium::tests/productpage.spec.ts::App logo exists on Login Page": [
+    "p",
+    2422
+   ],
+   "chromium::tests/productpage.spec.ts::Search Box exists on Login Page": [
+    "p",
+    3262
+   ],
+   "chromium::tests/productpage.spec.ts::Cart exists on Login Page": [
+    "p",
+    3183
+   ],
+   "chromium::tests/productpage.spec.ts::Footers exists on Login Page": [
+    "p",
+    2925
+   ],
+   "chromium::tests/searchpage.spec.ts::verify search results count - macbook - MacBook Pro": [
+    "p",
+    3911
+   ],
+   "chromium::tests/searchpage.spec.ts::verify search results count - macbook - MacBook Air": [
+    "p",
+    3153
+   ],
+   "chromium::tests/searchpage.spec.ts::verify search results count - imac - iMac": [
+    "p",
+    3101
+   ],
+   "chromium::tests/searchpage.spec.ts::verify search results count - samsung - Samsung Galaxy Tab 10.1": [
+    "p",
+    3919
+   ],
+   "chromium::tests/searchpage.spec.ts::verify user is able to land on the product page - macbook - MacBook Pro": [
+    "p",
+    3334
+   ],
+   "chromium::tests/searchpage.spec.ts::verify user is able to land on the product page - macbook - MacBook Air": [
+    "p",
+    3965
+   ],
+   "chromium::tests/searchpage.spec.ts::verify user is able to land on the product page - imac - iMac": [
+    "p",
+    4008
+   ],
+   "chromium::tests/searchpage.spec.ts::verify user is able to land on the product page - samsung - Samsung Galaxy Tab 10.1": [
+    "p",
+    3829
+   ],
+   "chromium::tests/searchpage.spec.ts::App logo exists on Login Page": [
+    "p",
+    3061
+   ],
+   "chromium::tests/searchpage.spec.ts::Search Box exists on Login Page": [
+    "p",
+    2760
+   ],
+   "chromium::tests/searchpage.spec.ts::Cart exists on Login Page": [
+    "p",
+    2384
+   ],
+   "chromium::tests/searchpage.spec.ts::Footers exists on Login Page": [
+    "p",
+    2156
+   ]
+  }
+ },
+ {
+  "time": 1790737834006,
+  "duration": 1725.748,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "f",
+    263
+   ]
+  }
+ },
+ {
+  "time": 1790737871388,
+  "duration": 1860.0490000000002,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "f",
+    286
+   ]
+  }
+ },
+ {
+  "time": 1790737946389,
+  "duration": 1730.9619999999998,
+  "passed": 0,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "f",
+    294
+   ]
+  }
+ },
+ {
+  "time": 1790738670456,
+  "duration": 2109.727,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/api/spotify.oauth2.spec.ts::get albums data test": [
+    "p",
+    673
+   ]
+  }
  }
 ]
