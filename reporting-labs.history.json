@@ -2399,5 +2399,609 @@
     2173
    ]
   }
+ },
+ {
+  "time": 1791137297815,
+  "duration": 23265.527000000002,
+  "passed": 58,
+  "failed": 1,
+  "flaky": 0,
+  "skipped": 10,
+  "total": 69,
+  "tests": {
+   "chromium::tests/api/booking.api.spec.ts::@regression booking CRUD with token": [
+    "p",
+    1731
+   ],
+   "chromium::tests/api/intercept.spec.ts::intercept and log requests": [
+    "p",
+    4631
+   ],
+   "chromium::tests/api/intercept.spec.ts::@smoke mock search with fake JSON": [
+    "p",
+    339
+   ],
+   "chromium::tests/api/intercept.spec.ts::@smoke mock search page with fake HTML": [
+    "p",
+    404
+   ],
+   "chromium::tests/api/spotify.oauth2.spec.ts::@regression get albums data test": [
+    "p",
+    534
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::@regression Create a user test": [
+    "p",
+    925
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::@regression Update a user test": [
+    "p",
+    1090
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::@regression Delete a user test": [
+    "p",
+    2501
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::@smoke get a user - schema test": [
+    "p",
+    879
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::@smoke get all users - schema test": [
+    "p",
+    250
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @smoke @regression GET API - get all users": [
+    "p",
+    238
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @regression POST API -- create a user": [
+    "p",
+    331
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @regression PUT API -- update a user": [
+    "p",
+    246
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @regression DELETE API -- delete a user": [
+    "p",
+    242
+   ],
+   "chromium::tests/api/usera.pi.schema.spec.ts::get a user - schema test": [
+    "p",
+    537
+   ],
+   "chromium::tests/api/usera.pi.schema.spec.ts::get all users - schema test": [
+    "p",
+    210
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::get all users GET api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::create a user POST api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::update a user PUT api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::delete a user DELETE api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::home page title test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::logout link exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::home page headers exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke home page title test": [
+    "p",
+    3133
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke logout link exist test": [
+    "p",
+    3147
+   ],
+   "chromium::tests/homepagefix.spec.ts::@regression home page headers exist test": [
+    "p",
+    2790
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    2615
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    2118
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    2266
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    2081
+   ],
+   "chromium::tests/loginpage.spec.ts::login page title test": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpage.spec.ts::forgot pwd link exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpage.spec.ts::user is able to login to app": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke login page title test": [
+    "p",
+    1388
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression forgot pwd link exist test": [
+    "p",
+    1291
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression user is able to login to app with valid credentials": [
+    "p",
+    2158
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with fixture data": [
+    "f",
+    2582
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression login to app with invalid credentials with CSV data - invalid@open.com - wrong123": [
+    "p",
+    1903
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression login to app with invalid credentials with CSV data -  - pw1234": [
+    "p",
+    1784
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression login to app with invalid credentials with CSV data - pwapril@pw.com - ": [
+    "p",
+    1762
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data- invalid@open.com - wrong123": [
+    "p",
+    1995
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data-  - pw1234": [
+    "p",
+    2161
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data- pwapril@pw.com - ": [
+    "p",
+    1956
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- wrong@open.com - wrong@123": [
+    "p",
+    1949
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- invalid@open.com - ": [
+    "p",
+    1699
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- pwapril@pw.com - wrong@123": [
+    "p",
+    1597
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    1312
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    1648
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    1357
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    1351
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke verify product header": [
+    "p",
+    2801
+   ],
+   "chromium::tests/productpage.spec.ts::@regression verify product images count": [
+    "p",
+    2855
+   ],
+   "chromium::tests/productpage.spec.ts::@regression verify product information/data": [
+    "p",
+    2947
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    2070
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    1870
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    2099
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    2075
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - macbook - MacBook Pro": [
+    "p",
+    2306
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - macbook - MacBook Air": [
+    "p",
+    2448
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - imac - iMac": [
+    "p",
+    2475
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - samsung - Samsung Galaxy Tab 10.1": [
+    "p",
+    2456
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - macbook - MacBook Pro": [
+    "p",
+    3281
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - macbook - MacBook Air": [
+    "p",
+    3056
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - imac - iMac": [
+    "p",
+    3041
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - samsung - Samsung Galaxy Tab 10.1": [
+    "p",
+    2990
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    2170
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    2010
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    1859
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    1772
+   ]
+  }
+ },
+ {
+  "time": 1791137575252,
+  "duration": 4897.8189999999995,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with fixture data": [
+    "p",
+    3373
+   ]
+  }
+ },
+ {
+  "time": 1791137666671,
+  "duration": 4351.411,
+  "passed": 1,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 0,
+  "total": 1,
+  "tests": {
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with fixture data": [
+    "p",
+    2738
+   ]
+  }
+ },
+ {
+  "time": 1791137733092,
+  "duration": 24470.004,
+  "passed": 59,
+  "failed": 0,
+  "flaky": 0,
+  "skipped": 10,
+  "total": 69,
+  "tests": {
+   "chromium::tests/api/booking.api.spec.ts::@regression booking CRUD with token": [
+    "p",
+    1886
+   ],
+   "chromium::tests/api/intercept.spec.ts::intercept and log requests": [
+    "p",
+    1526
+   ],
+   "chromium::tests/api/intercept.spec.ts::@smoke mock search with fake JSON": [
+    "p",
+    393
+   ],
+   "chromium::tests/api/intercept.spec.ts::@smoke mock search page with fake HTML": [
+    "p",
+    381
+   ],
+   "chromium::tests/api/spotify.oauth2.spec.ts::@regression get albums data test": [
+    "p",
+    625
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::@regression Create a user test": [
+    "p",
+    788
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::@regression Update a user test": [
+    "p",
+    2186
+   ],
+   "chromium::tests/api/user.api.individual.spec.ts::@regression Delete a user test": [
+    "p",
+    2525
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::@smoke get a user - schema test": [
+    "p",
+    1836
+   ],
+   "chromium::tests/api/user.api.schema.spec.ts::@smoke get all users - schema test": [
+    "p",
+    262
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @smoke @regression GET API - get all users": [
+    "p",
+    221
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @regression POST API -- create a user": [
+    "p",
+    209
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @regression PUT API -- update a user": [
+    "p",
+    230
+   ],
+   "chromium::tests/api/user.api.spec.ts::running e2e go rest crud apis tests › @regression DELETE API -- delete a user": [
+    "p",
+    252
+   ],
+   "chromium::tests/api/usera.pi.schema.spec.ts::get a user - schema test": [
+    "p",
+    644
+   ],
+   "chromium::tests/api/usera.pi.schema.spec.ts::get all users - schema test": [
+    "p",
+    568
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::get all users GET api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::create a user POST api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::update a user PUT api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/api/users.api.practice.spec.ts::delete a user DELETE api test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::home page title test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::logout link exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepage.spec.ts::home page headers exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke home page title test": [
+    "p",
+    2559
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke logout link exist test": [
+    "p",
+    2253
+   ],
+   "chromium::tests/homepagefix.spec.ts::@regression home page headers exist test": [
+    "p",
+    2367
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    1998
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    2200
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    2174
+   ],
+   "chromium::tests/homepagefix.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    2309
+   ],
+   "chromium::tests/loginpage.spec.ts::login page title test": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpage.spec.ts::forgot pwd link exist test": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpage.spec.ts::user is able to login to app": [
+    "s",
+    0
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke login page title test": [
+    "p",
+    1499
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression forgot pwd link exist test": [
+    "p",
+    1498
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression user is able to login to app with valid credentials": [
+    "p",
+    2414
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with fixture data": [
+    "p",
+    2838
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression login to app with invalid credentials with CSV data - invalid@open.com - wrong123": [
+    "p",
+    2032
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression login to app with invalid credentials with CSV data -  - pw1234": [
+    "p",
+    2007
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@regression login to app with invalid credentials with CSV data - pwapril@pw.com - ": [
+    "p",
+    2356
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data- invalid@open.com - wrong123": [
+    "p",
+    2165
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data-  - pw1234": [
+    "p",
+    2269
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with Excel Data- pwapril@pw.com - ": [
+    "p",
+    1888
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- wrong@open.com - wrong@123": [
+    "p",
+    1848
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- invalid@open.com - ": [
+    "p",
+    1815
+   ],
+   "chromium::tests/loginpagefix.spec.ts::login to app with invalid credentials with JSON Data- pwapril@pw.com - wrong@123": [
+    "p",
+    1918
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    1398
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    1335
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    2175
+   ],
+   "chromium::tests/loginpagefix.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    1220
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke verify product header": [
+    "p",
+    3598
+   ],
+   "chromium::tests/productpage.spec.ts::@regression verify product images count": [
+    "p",
+    3307
+   ],
+   "chromium::tests/productpage.spec.ts::@regression verify product information/data": [
+    "p",
+    3127
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    2716
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    2452
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    2382
+   ],
+   "chromium::tests/productpage.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    2393
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - macbook - MacBook Pro": [
+    "p",
+    3242
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - macbook - MacBook Air": [
+    "p",
+    3026
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - imac - iMac": [
+    "p",
+    3407
+   ],
+   "chromium::tests/searchpage.spec.ts::@regression verify search results count - samsung - Samsung Galaxy Tab 10.1": [
+    "p",
+    2982
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - macbook - MacBook Pro": [
+    "p",
+    3375
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - macbook - MacBook Air": [
+    "p",
+    3194
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - imac - iMac": [
+    "p",
+    2735
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke verify user is able to land on the product page - samsung - Samsung Galaxy Tab 10.1": [
+    "p",
+    2788
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke App logo exists on Login Page": [
+    "p",
+    2204
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke Search Box exists on Login Page": [
+    "p",
+    1970
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke Cart exists on Login Page": [
+    "p",
+    2032
+   ],
+   "chromium::tests/searchpage.spec.ts::@smoke Footers exists on Login Page": [
+    "p",
+    2024
+   ]
+  }
  }
 ]
