@@ -1,6 +1,6 @@
 # ═══════════════════════════════════════════════════════════════
 # FILE: .github/workflows/master-pipeline.yml
-# REPO: naveenanimation20/OpenCartWebAPIAutomationFramework
+# REPO: vinaykumariyengar09-max/OpenCartWebApiAutomation
 # DEV REPO: jglick/simple-maven-project-with-tests
 # ═══════════════════════════════════════════════════════════════
 # "Run up to environment" — the dropdown controls how far the
@@ -706,7 +706,7 @@ jobs:
           username: ${{ secrets.EMAIL_USERNAME }}
           password: ${{ secrets.EMAIL_PASSWORD }}
           subject: "🎭 CI/CD Pipeline [${{ github.event.inputs.environment }}] — ${{ steps.status.outputs.overall }} — ${{ github.ref_name }}"
-          to: naveenanimation20@gmail.com,training@naveenautomationlabs.com,shraddha.goel10@gmail.com,manishlalwani88@gmail.com,nbrnaveen@gmail.com,primeqa20@yahoo.com
+          to: vinaykumar.iyengar09@gmail.com
           from: "CI Bot <${{ secrets.EMAIL_USERNAME }}>"
           html_body: file://dashboard.html
 
