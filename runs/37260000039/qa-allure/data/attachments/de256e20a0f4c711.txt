@@ -1,0 +1,3 @@
+Auth API Response:  { token: 'f7514c6133d914f' }
+token ----> f7514c6133d914f
+Booking ID:  3153
