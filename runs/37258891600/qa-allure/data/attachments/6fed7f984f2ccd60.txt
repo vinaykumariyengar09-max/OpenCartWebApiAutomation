@@ -1,0 +1,3 @@
+Auth API Response:  { token: '6370ce0ef77cac9' }
+token ----> 6370ce0ef77cac9
+Booking ID:  5056
