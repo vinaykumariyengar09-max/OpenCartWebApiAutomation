@@ -332,9 +332,9 @@ jobs:
           npx playwright test --project=chromium --grep @smoke
         env:
           ENV: stage
-          APP_BASE_URL: ${{ secrets.BASE_URL }}
+          BASE_URL: ${{ secrets.BASE_URL }}
           APP_USERNAME: ${{ secrets.APP_USERNAME }}
-          PASSWORD: ${{ secrets.APP_PASSWORD }}
+          APP_PASSWORD: ${{ secrets.APP_PASSWORD }}
           API_BASE_URL: ${{ secrets.API_BASE_URL }}
           API_TOKEN: ${{ secrets.API_TOKEN }}
           OAUTH_CLIENT_ID: ${{ secrets.OAUTH_CLIENT_ID }}
