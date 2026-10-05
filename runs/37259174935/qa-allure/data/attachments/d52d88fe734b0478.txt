@@ -1,0 +1,7 @@
+{
+  id: 8649549,
+  name: 'manish automation labs',
+  email: 'pwautomation_1791170689154@open.com',
+  gender: 'male',
+  status: 'inactive'
+} 200

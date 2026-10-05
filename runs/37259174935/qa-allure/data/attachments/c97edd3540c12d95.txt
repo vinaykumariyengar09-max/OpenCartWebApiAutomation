@@ -1,0 +1,3 @@
+Auth API Response:  { token: '5d7a8ea7c5f69ac' }
+token ----> 5d7a8ea7c5f69ac
+Booking ID:  1987
