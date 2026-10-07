@@ -80,8 +80,8 @@ pipeline {
                 echo "  Installing Playwright Dependencies"
                 echo "========================================="
                 dir('qa-tests') {
-                    git url: 'https://github.com/naveenanimation20/OpenCartWebAPIAutomationFramework.git',
-                        branch: 'main'
+                    git url: 'https://github.com/vinaykumariyengar09-max/OpenCartWebApiAutomation.git',
+                        branch: 'master'
                     bat 'npm ci'
                     bat 'npx playwright install --with-deps chromium'
                 }
@@ -113,7 +113,7 @@ pipeline {
                     '''
                     withCredentials([
                         usernamePassword(credentialsId: 'dev-credentials',
-                            usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                            usernameVariable: 'APP_USERNAME', passwordVariable: 'APP_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -188,7 +188,7 @@ pipeline {
                     '''
                     withCredentials([
                         usernamePassword(credentialsId: 'qa-credentials',
-                            usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                            usernameVariable: 'APP_USERNAME', passwordVariable: 'APP_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -263,7 +263,7 @@ pipeline {
                     '''
                     withCredentials([
                         usernamePassword(credentialsId: 'stage-credentials',
-                            usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                            usernameVariable: 'APP_USERNAME', passwordVariable: 'APP_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -320,7 +320,7 @@ pipeline {
             steps {
                 input message: 'Deploy to PROD?',
                     ok: 'Yes, Deploy!',
-                    submitter: 'admin,naveen'
+                    submitter: 'admin,vinay'
             }
         }
 
@@ -346,7 +346,7 @@ pipeline {
                     '''
                     withCredentials([
                         usernamePassword(credentialsId: 'prod-credentials',
-                            usernameVariable: 'USERNAME', passwordVariable: 'PASSWORD'),
+                            usernameVariable: 'APP_USERNAME', passwordVariable: 'APP_PASSWORD'),
                         string(credentialsId: 'api-token', variable: 'API_TOKEN'),
                         string(credentialsId: 'oauth-client-id', variable: 'OAUTH_CLIENT_ID'),
                         string(credentialsId: 'oauth-client-secret', variable: 'OAUTH_CLIENT_SECRET'),
@@ -427,7 +427,7 @@ pipeline {
 
                 // Email Notification
                 emailext(
-                    to: 'naveenanimation20@gmail.com,training@naveenautomationlabs.com',
+                    to: 'vinaykumar.iyengar09@gmail.com',
                     subject: "🎭 CI/CD Pipeline — ${statusEmoji} ${buildStatus} — Build #${env.BUILD_NUMBER}",
                     mimeType: 'text/html',
                     body: """
