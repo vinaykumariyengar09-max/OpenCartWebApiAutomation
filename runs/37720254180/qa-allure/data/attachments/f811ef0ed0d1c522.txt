@@ -1,0 +1,2 @@
+app user creds: vinaykumar.iyengartesting01@gmail.com - 12345678
+home page headers:  [ 'My Account', 'My Orders', 'My Affiliate Account', 'Newsletter' ]
