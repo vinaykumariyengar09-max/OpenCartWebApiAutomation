@@ -1,0 +1,3 @@
+Auth API Response:  { token: 'f96321bfb7e3d43' }
+token ----> f96321bfb7e3d43
+Booking ID:  738
